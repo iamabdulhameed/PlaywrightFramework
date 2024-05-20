@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.43.0",
+    "@types/node": "^20.12.7"
+  },
+  "scripts": {
+    "test:api": "playwright test --config=api.config.ts --project=Chromium"
+  }
+}
